@@ -12,7 +12,7 @@ e.g +,-, /,*, **, //
 2.Assignment operators:
 Assignment operators are used to assign values to variables
 e.g:
-=, +=, -=, *=, /=
+==, +=, -=, *=, /=
 
 3.Comparison operators 
 Comparison operators are used to compare two values:
@@ -41,4 +41,25 @@ e.g:
 in, not in
 
 '''
+# asssignment operators
+clint = 60
+clint -= 40
+print(clint)
 
+nelson = 200
+nelson *= 2
+print(nelson)
+
+# comparison operators
+peter =50
+nelson = 50
+print(peter == nelson)
+
+s = 40
+b = 2
+print(s > b)
+
+# membership
+-in, not in
+c = ['mango','grape', 'pear']
+print(c[0] in c)
