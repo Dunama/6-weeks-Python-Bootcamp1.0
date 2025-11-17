@@ -42,6 +42,7 @@ print(my_info)
 # create a dict
 # use a loop(for loop)
 # for loop is used for specific or defined purpose WHILE while loop is used for an infinite or an unspecified purpose
+
 subject_scores = {'maths':89, 'english':20, 'physics':40, 'chemistry':39, 'igbo':100}
 # for subjects, scores  in subject_scores.items():
     print(f'{subjects} = {scores}')
