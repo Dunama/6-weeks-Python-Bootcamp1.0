@@ -21,6 +21,7 @@ e.g A = 3
 DATA TYPES:
 Text = Str
 Numeric = int, float, complex 
+
 '''
 # print(obi)
 # #this is a code to print hello world
