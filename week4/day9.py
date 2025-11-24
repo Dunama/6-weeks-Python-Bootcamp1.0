@@ -22,9 +22,8 @@ class Fruits:
     def __init__(self, name):
         self.name = name
         
-banana = Fruits('this is a banana')
-
-print(banana)
+gift = Fruits('watermelon')
+gift.name
 
 class Cars:
     def __init__(self, brand, model):

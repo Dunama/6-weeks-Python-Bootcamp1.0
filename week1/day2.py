@@ -42,25 +42,29 @@ in, not in
 
 '''
 # asssignment operators
-clint = 60
-clint -= 40
-print(clint)
+# musa = 60
+# musa += 5
+# musa -= 10
+musa = 60
+musa *=2
+print(musa)
 
-nelson = 200
-nelson *= 2
-print(nelson)
+# grater than
+a = 100
+b = 7
+print(a > b)
 
-# comparison operators
-peter =50
-nelson = 50
-print(peter == nelson)
+# less than 
+a = 100
+b = 7
+print(a < b)
 
-s = 40
-b = 2
-print(s > b)
+# s = 40
+# b = 2
+# print(s > b)
 
-# membership
--in, not in
-c = ['mango','grape', 'pear']
-print(c[0] in c)
+# # membership
+# # in, not in
+# c = ['mango','grape', 'pear']
+# print(c[0] in c)
 

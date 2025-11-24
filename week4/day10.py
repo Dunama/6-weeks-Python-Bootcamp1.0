@@ -113,3 +113,49 @@ print(bio_form.name)
 print(bio_form.level)
 print(bio_form.get_cgpa())
 print(bio_form.get_address())
+
+#     def __init__(self, breed, species)
+#         self.breed = breed
+#         self.species = species
+
+# class Dog(Animal):
+#     def __init__(self).super()
+'''
+Bank Account Management
+Design a Python program to simulate a simple bank account system. 
+a class BankAccount with attributes like account_number, account_holder_name, and balance.
+Implement methods for deposit, withdraw, 
+and check_balance. Ensure that withdrawals are only allowed if sufficient funds are available.
+'''
+
+
+class BankAccount:
+    def __init__(self, account_no,  holder, account_bal = 0):
+        self.account_no = account_no
+        self.holder = holder
+        self.account_bal = account_bal
+
+    def deposit(self,amount):
+        if amount > 0:
+            self.account_bal += amount
+            print(f' your money has been deposited New balance = {self.account_bal}')
+        else:
+            print('dear customer insufficient funds')
+
+    def withdraw(self, amount):
+        if amount > self.account_bal:
+            print('ogga insufficient funds')
+
+        else:
+            self.account_bal -= amount
+            print(f'successful withdrawal new bal = {self.account_bal}')
+
+    def check_bal(self):
+        return self.account_bal
+
+
+emma = BankAccount(101, 'emma', 5000)
+emma.deposit(200)
+emma.withdraw(22)
+emma.withdraw(10000)
+print(emma.check_bal())
